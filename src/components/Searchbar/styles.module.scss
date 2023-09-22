@@ -1,0 +1,27 @@
+.searchbar {
+  border-radius: 6px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+
+  .container {
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    gap: 24px;
+
+    button{
+      height: 48px;
+    }
+    // padding: 24px 24px 24px 16px;
+  }
+
+  .searchBtn {
+    align-self: center;
+
+    path {
+      fill: var(--color-neutral-lightest);
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.jobDetails {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--color-neutral-lightest-content-bg);
+  padding: 40px 24px;
+  border-radius: 6px;
+
+  .title {
+    margin: 8px 0 12px;
+  }
+
+  .btnApply {
+    margin: 50px 0 32px;
+  }
+
+  .subtitle {
+    margin: 40px 0 28px;
+  }
+
+  .unorderedList, .orderedList {
+    list-style: none;
+    margin-top: 32px;
+
+    li {
+      position: relative;
+
+      &:not(:last-of-type) {
+        margin-bottom: 8px;
+      }
+    }
+
+    p {
+      padding-left: 36px;
+    }
+  }
+
+  .unorderedList {
+    li {
+      &::before {
+        content: '';
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: var(--color-primary-medium);
+        top: 10px;
+        position: absolute;
+      }
+    }
+  }
+
+  .orderedList {
+    li {
+      position: relative;
+
+      span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--color-primary-medium);
+        font-weight: var(--font-weight-bold);
+      }
+    }
+  }
+}

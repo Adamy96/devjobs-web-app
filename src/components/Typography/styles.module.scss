@@ -1,0 +1,50 @@
+.typography {
+  &.variant-h1 {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    color: var(--color-primary-dark-text);
+  }
+
+  &.variant-h2 {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    color: var(--color-primary-dark-text);
+  }
+
+  &.variant-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--color-primary-dark-text);
+  }
+
+  &.variant-h4 {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: var(--color-primary-medium);
+  }
+
+  &.variant-body, &.variant-caption {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  &.variant-body {
+    color: var(--color-neutral-dark-content);
+  }
+
+  &.variant-caption {
+    color: var(--color-neutral-dark);
+  }
+
+  &.variant-button {
+    font-size: 1rem;
+    color: var(--color-neutral-lightest);
+    font-weight: var(--font-weight-bold);
+  }
+
+  &.variant-buttonTransparent {
+    font-size: 1rem;
+    color: var(--color-primary-medium);
+    font-weight: var(--font-weight-bold);
+  }
+}

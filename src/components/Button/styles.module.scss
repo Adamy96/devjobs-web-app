@@ -1,0 +1,30 @@
+.btn {
+  border: 0;
+  border-radius: 6px;
+
+  &.variant {
+    &-default {
+      background-color: var(--color-primary-medium);
+      color: var(--color-neutral-lightest);
+    }
+
+    &-transparent {
+      background-color: var(--color-primary-medium-transparent-20);
+      color: var(--color-primary-medium);
+    }
+  }
+
+  &.size {
+    &-sm {
+      padding: 14px;
+    }
+
+    &-md {
+      padding: 16px 20px;
+    }
+
+    &-lg {
+      padding: 16px 30px;
+    }
+  }
+}

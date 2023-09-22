@@ -1,0 +1,30 @@
+.toggleTheme {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  button {
+    border: 0;
+    background-color: var(--color-neutral-lightest);
+    width: 48px;
+    height: 24px;
+    position: relative;
+    border-radius: 12px;
+
+    span {
+      border-radius: 50%;
+      background-color: var(--color-primary-medium);
+      width: 14px;
+      height: 14px;
+      position: absolute;
+      top: calc(50% - 7px);
+      left: 4px;
+      transition: all ease .5s;
+
+      &.active {
+        transform: translateX(26px);
+        transition: all ease .5s;
+      }
+    }
+  }
+}

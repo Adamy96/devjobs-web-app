@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-neutral-light-bg);
+  min-height: 900px;
+
+  .content {
+    margin-top: -40px;
+    width: 100%;
+    padding: 0 24px;
+  }
+}
